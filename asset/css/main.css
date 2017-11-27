@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* menu */
+nav{
+    margin-bottom: 30px;
+}
+.li{
+    display: inline-block
+}
+.portrait{
+    display: none
+}
+.menu{
+    background-color: #343A40;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:focus{
+   font-weight: bold;
+}
+.menu div:first-child{
+   padding-left: 100px;
+}
+/* menu banner */
+.imgHeader{
+    background: url(../img/header.jpg) no-repeat fixed center;
+    background-size: cover;
+    position: center;
+    color: #fff;
+    padding: 0;
+}
+
+#banner{
+    padding: 0;
+}
+h1{
+    padding-top: 130px;
+    font-size: 7em;
+    font-weight: 300;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.subTitle{
+    padding-top: 30px;
+    padding-bottom: 150px;
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* foto rock uno */
+.img{
+    width: 60%;
+    border-radius: 100%;
+    text-align: center
+}
+.text{
+    text-align: left;
+}
+h2{
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 20%;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #343A40
+}
+p{
+    width: 70%;
+    margin-left: 20%;
+    color: #343A40
+}
+.all{
+    text-align: center
+}
+section{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+/* footer */
+footer{
+    background-color: #343A40;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
